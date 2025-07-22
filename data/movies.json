@@ -1,0 +1,100 @@
+[
+  {
+    "id": 3,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": "Action",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genre": "Crime",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "id": 5,
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": "Crime",
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "id": 6,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genre": "Drama",
+    "director": "Robert Zemeckis"
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": "Sci-Fi",
+    "director": "The Wachowskis"
+  },
+  {
+    "id": 8,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": "Sci-Fi",
+    "director": "Christopher Nolan"
+  },
+  {
+    "id": 9,
+    "title": "Fight Club",
+    "year": 1999,
+    "genre": "Drama",
+    "director": "David Fincher"
+  },
+  {
+    "id": 10,
+    "title": "The Avengers",
+    "year": 2012,
+    "genre": "Superhero",
+    "director": "Joss Whedon"
+  },
+  {
+    "id": 11,
+    "title": "The dummy",
+    "year": 2072,
+    "genre": "Superhero",
+    "director": "Joss Whedon"
+  },
+  {
+    "id": 12,
+    "title": "The dummy",
+    "year": 2072,
+    "genre": "Superhero",
+    "director": "Joss Whedon"
+  },
+  {
+    "title": "The dummy",
+    "year": 2072,
+    "genre": "Superhero",
+    "director": "Joss Whedon",
+    "id": 13
+  },
+  {
+    "title": "The dummy",
+    "year": 2002,
+    "genre": "Superhero",
+    "director": "Joss Whedon",
+    "id": 14
+  },
+  {
+    "title": "The dummy",
+    "year": 2002,
+    "genre": "Superhero",
+    "director": "",
+    "id": 15
+  },
+  {
+    "title": "The dummy",
+    "year": 2002,
+    "genre": "Superhero",
+    "director": " Whedon",
+    "id": 16
+  }
+]
