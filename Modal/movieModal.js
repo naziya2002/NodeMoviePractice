@@ -39,6 +39,7 @@ const movieSchema=mongoose.Schema(  {
     language: {
       type: String,
       default: "English",
+      required:[true,"language is required"]
     },
     // posterUrl: {
     //   type: String, // link to poster image
