@@ -46,6 +46,9 @@ const validationErrorHandler=(err)=>{
     return new CustomError(msg,400)
 
 }
+const validateTokenHadler=(err)=>{
+    return new CustomError('Token Expired , Please Login Again',401)
+}
 const GlobalErrorController=(error,req,res,next)=>{
     error.statusCode=error.statusCode || 500
     error.status=error.status|| "fail"
@@ -58,6 +61,7 @@ const GlobalErrorController=(error,req,res,next)=>{
         if(error.name==="CastError")error=casteErrorHandler(error)
         if(error.code===11000)error=duplicateKeyError(error)
         if(error.name==="ValidationError") error=validationErrorHandler(error)
+        if(error.name==="TokenExpiredError") error=validateTokenHadler(error)
         Proderror(res,error)
     }
     next()
